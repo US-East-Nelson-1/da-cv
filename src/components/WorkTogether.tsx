@@ -1,9 +1,11 @@
+import FadeDivider from './FadeDivider'
+
+
 export default function WorkTogether() {
   return (
     <section id="work-together" className="py-10">
       <div className="content-container">
-       <div className="mt-4 border-t border-gray-300 w-full pb-5">
-            </div>
+      <FadeDivider />
         <h2 className="text-section-title text-gray-900 mb-8">
           Let's Work Together!
         </h2>

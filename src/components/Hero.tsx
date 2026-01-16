@@ -1,4 +1,6 @@
 import StatusPulse from './StatusPulse'
+import SkillsCarousel from './SkillsCarousel'
+import FadeDivider from './FadeDivider'
 
 export default function Hero() {
   return (
@@ -12,13 +14,13 @@ export default function Hero() {
             <p className="text-lg text-gray-500 text-light">
               creating intuitive solutions that solve real problems.
             </p>
-            <div>
+            <div className="pt-20">
             <StatusPulse label="Lead Software Engineer at " />
             </div>
           </div>
         </div>
-          <div className="mt-4 border-t border-gray-300 w-full">
-            </div>
+            <FadeDivider />
+            <SkillsCarousel />
       </div>
     </section>
   );
