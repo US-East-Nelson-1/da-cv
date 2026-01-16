@@ -10,7 +10,7 @@ export default function WorkTogether() {
           Let's Work Together!
         </h2>
         <div className="text-gray-600 text-md mb-8">
-          Looking for technical leadership or engineering guidance, or someone who documents their thinking? Let's talk.
+          Looking for technical leadership, engineering guidance, or someone who documents their thinking? Let's connect!
         </div>
         <a 
           href="mailto:nelsonguerra.tech@outlook.com"
