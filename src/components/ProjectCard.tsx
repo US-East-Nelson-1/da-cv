@@ -16,7 +16,7 @@ export default function ProjectCard({ heading, title, description, tags, link }:
         {tags.map((tag) => (
           <span 
             key={tag} 
-            className="border border-gray-200 border-1 text-xs text-light bg-white px-2 py-1 rounded-sm"
+            className="border border-gray-200 border-1 text-xs text-light bg-white px-2 py-1 rounded-md"
           >
             {tag}
           </span>
@@ -31,7 +31,7 @@ export default function ProjectCard({ heading, title, description, tags, link }:
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="block border border-gray-300 p-5 rounded-sm bg-zinc-50 bg-opacity-50 hover:border-gray-400 hover:shadow-md transition-colors cursor-pointer"
+        className="block border border-gray-300 p-5 rounded-md bg-zinc-50 bg-opacity-50 hover:border-gray-400 hover:shadow-md transition-colors cursor-pointer"
       >
         {CardContent}
       </a>
@@ -39,7 +39,7 @@ export default function ProjectCard({ heading, title, description, tags, link }:
   }
 
   return (
-    <div className="border border-gray-300 p-5 rounded-sm bg-zinc-50 bg-opacity-50">
+    <div className="border border-gray-300 p-5 rounded-md bg-zinc-50 bg-opacity-50">
       {CardContent}
     </div>
   );
