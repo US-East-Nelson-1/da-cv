@@ -6,14 +6,14 @@ export default function Hero() {
       <div className="content-container">
         <div className="flex">
           <div className="text-left max-w-2xl">
-            <h1 className="text-body md:text-body text-gray-900">
+            <h1 className="text-xl text-body md:text-body text-gray-900">
               Software Engineer & Data Analyst,
             </h1>
-            <p className="text-gray-500 text-light">
+            <p className="text-lg text-gray-500 text-light">
               creating intuitive solutions that solve real problems.
             </p>
             <div>
-            <StatusPulse label="Lead Software Engineer · " />
+            <StatusPulse label="Lead Software Engineer at " />
             </div>
           </div>
         </div>
