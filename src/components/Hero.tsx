@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex">
           <div className="text-left max-w-2xl">
             <h1 className="text-body md:text-body text-gray-900">
-              Software Engineer turned Data Analyst,
+              Software Engineer & Data Analyst,
             </h1>
             <p className="text-gray-500 text-light">
               creating intuitive solutions that solve real problems.
