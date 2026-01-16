@@ -8,6 +8,7 @@ export default function Hero() {
       <div className="content-container">
         <div className="flex">
           <div className="text-left max-w-2xl">
+            <p className="text-sm pb-1 text-light text-gray-500">Nelson Guerra</p>
             <h1 className="text-xl text-body md:text-body text-gray-900">
               Software Engineer & Data Analyst,
             </h1>
