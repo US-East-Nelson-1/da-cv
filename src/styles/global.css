@@ -21,6 +21,8 @@
   body {
     min-height: 100vh;
     line-height: 1.5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 300;
   }
 
   img,
@@ -48,6 +50,47 @@
   h6 {
     overflow-wrap: break-word;
   }
+
+  /* Typography Hierarchy */
+  h1 {
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  h5,
+  h6 {
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  p {
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  strong,
+  b {
+    font-weight: 600;
+  }
+
+  small {
+    font-weight: 400;
+  }
 }
 
 @layer components {
@@ -66,5 +109,30 @@
       padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
+  }
+
+  /* Typography Utility Classes */
+  .text-heading {
+    font-weight: 700;
+  }
+
+  .text-subheading {
+    font-weight: 600;
+  }
+
+  .text-section-title {
+    font-weight: 600;
+  }
+
+  .text-body {
+    font-weight: 400;
+  }
+
+  .text-light {
+    font-weight: 300;
+  }
+
+  .text-medium {
+    font-weight: 500;
   }
 }

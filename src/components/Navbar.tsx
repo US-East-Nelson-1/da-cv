@@ -3,19 +3,19 @@ export default function Navbar() {
     <nav className="content-container py-6">
       <div className="container-custom">
         <div className="flex items-center justify-between">
-          <div className="text-gray-900 font-medium">
+          <div className="text-gray-900 text-section-title text-sm">
             NG | Data Analyst
           </div>
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-8 text-sm text-gray-500">
             <a 
               href="#projects" 
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="hover:text-gray-900 transition-colors"
             >
               Projects
             </a>
             <a 
               href="#contact" 
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="hover:text-gray-900 transition-colors"
             >
               Contact
             </a>
