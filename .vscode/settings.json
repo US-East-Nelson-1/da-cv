@@ -1,2 +1,4 @@
 {
+  "typescript.preferences.autoImportFileExcludePatterns": [],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

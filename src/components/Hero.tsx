@@ -1,3 +1,5 @@
+import StatusPulse from './StatusPulse'
+
 export default function Hero() {
   return (
     <section className="pt-40">
@@ -10,9 +12,12 @@ export default function Hero() {
             <p className="text-gray-500 text-light">
               creating intuitive solutions that solve real problems.
             </p>
+            <div>
+            <StatusPulse label="Lead Software Engineer · " />
+            </div>
           </div>
         </div>
-          <div className="mt-8 border-t border-gray-300 w-full">
+          <div className="mt-4 border-t border-gray-300 w-full">
             </div>
       </div>
     </section>
