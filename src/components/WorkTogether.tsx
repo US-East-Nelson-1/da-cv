@@ -6,9 +6,9 @@ export default function WorkTogether() {
     <section id="work-together" className="py-10">
       <div className="content-container">
       <FadeDivider />
-        <h2 className="text-section-title text-gray-900 mb-8">
-          Let's Work Together!
-        </h2>
+        <h1 className="text-section-title text-gray-900 mb-8">
+          Let's Chat
+        </h1>
         <div className="text-gray-600 text-md mb-8">
           Looking for technical leadership, engineering guidance, or someone who documents their thinking? Let's connect!
         </div>
